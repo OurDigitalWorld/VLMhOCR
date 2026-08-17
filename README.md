@@ -11,4 +11,6 @@ _coords2hOCR.py_ script. Note that [Code Carbon](https://codecarbon.io/) is used
 track overhead. The final goal is a hybrid environment where 
 [Tesseract](https://github.com/tesseract-ocr) is used for as much as the recognition process
 as possible (due to its smaller footprint), and a VLM/LLM layer is applied selectively via
-vLLM and straming. _vllmHunOcrStream.py_ is an example of using streaming.
+vLLM and streaming. _vllmHunOcrStream.py_ is an example of using streaming. Finally,
+_hocrAccEst.py_ is a simple example of using hOCR's confidence values for estimating the
+accuracy of a page.
